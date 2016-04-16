@@ -37,6 +37,17 @@ class StoreController extends Controller
 
     }
 
-   
+    public function product($id){
+
+        $categories = Category::all();
+        $product = Product::find($id);
+
+
+        return view('store.product', compact('categories', 'product'));
+
+
+    }
+
+
 
 }
