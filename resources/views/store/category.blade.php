@@ -1,5 +1,4 @@
 
-
 @extends('store.store')
 
 @section('categories')
@@ -21,4 +20,7 @@
 
 
     </div>
+
+
+
 @stop
